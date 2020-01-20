@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html class="ua-windows_nt
+ ua-windows_nt-10
+  ua-windows_nt-10-0
+   ua-chrome
+   ua-chrome-78
+   ua-chrome-78-0
+   ua-chrome-78-0-3904
+   ua-chrome-78-0-3904-108
+   ua-desktop
+   ua-desktop-windows
+   ua-webkit
+   ua-webkit-537
+   ua-webkit-537-36 js
+   no-applicationcache geolocation
+   history postmessage websockets
+   localstorage sessionstorage
+   websqldatabase webworkers
+   hashchange audio canvas canvastext
+   video webgl cssgradients multiplebgs
+   opacity rgba inlinesvg hsla supports
+   svgclippaths smil no-touchevents
+   fontface generatedcontent textshadow
+   cssanimations backgroundsize borderimage
+   borderradius boxshadow flexbox
+   cssreflections csstransforms
+   csstransforms3d csstransitions
+   has-cookie-bar
+   cookie-bar-bottom-bar cookie-bar-bar"
+  lang="de-DE" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+  data-useragent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+  (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"></html>>
+<title>Mohsen Hassani</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./css-Raleway.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+.w3-bottombar {
+    border-bottom: 6px solid #009688!important;
+    padding-bottom: 50px;
+    padding-top: 16px;
+
+}
+
+/* accordion */
+.accordion {
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="./Photos/brücke.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO </b></h4>
+    <p class="w3-text-grey">Mohsen Hassani</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO || نمونه کارها</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT || در باره</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT || تماس</a>
+    <a href="https://translate.google.com/?hl=de" target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-language fa-fw w3-margin-right"></i>Translation || ترجمه </a>
+
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    <!-- Social Media -->
+    <div class="w3-panel w3-large">
+        <a href="https://www.facebook.com/profile.php?id=100010113526949" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/invites/contact/?i=sh5bapapwfmm&utm_content=re9xtu" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://twitter.com/Mohsenhassani69?s=09" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        <a href="https://www.xing.com/profile/Mohsen_Hassani/cv" target="_blank">
+        <i style="font-size:20px" class="fa">&#xf168;</i></a><br>
+        <a href="https://www.youtube.com/watch?v=StfxRN9UGFM" target="_blank">
+        <img src="./Photos/Youtube_Icon_Black.png"></a>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+       </div>
+     </nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio || نمونه کارهای من</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right"></span>
+      <button class="w3-button w3-black">ALL || همه</button>
+      <a href="./design.html">
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design || طراحی </button></a>
+      <a href="./photos.html">
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos || عکس</button></a>
+
+
+      <a href="https://goo.gl/maps/EP5jjBakoHVJey1F6" target="_blank">
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art || هنر</button></a>
+
+
+      <a href="./Education.html">
+        <button class="w3-button w3-white w3-hide-small"></i><img src="./Photos/education_black.png">Education || تحصیلات</i>
+    </div>
+    </div>
+  </header>
+
+
+
+
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Photos/Fox-tree.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>پژوهشگر ادبی
+          ایران عزیز ما همواره در درازنای تاریخ گرانسنگ و نازشخیز خویش، به همان سان در پهنه فرهنگ و منش ایرانی، سرزمین سپندِ
+          امید و نوید بوده است. ایرانیان همواره امیدوار به آینده، می‌کوشیده‌اند که زمینه‌های زندگانی
+          بهتر و به آیین‌تر را فراهم بیاورند.این امیدواری، روشن رأیی و خوش بینی آنچنان در ایران ریشه
+          دار بوده که به جهان افسانه و اسطوره هایمان نیز راه برده است و کاربردی نمادین یافته است.
+          ایرانیان همواره چشم به راه رهاننده‌ای نویده داده بوده‌اند و هستند که فراز خواهد آمد و جهان را از رنج، آزار، تیرگی و
+           تباهی خواهد رهانید. باور دیگر که ایرانیان به این نوید داده رهاننده داشته‌اند که آینده‌ای بهین و به آیین
+          را برای جهانیان در ارمغان خواهد آورد در این کرانه دلپذیر شگفت‌انگیز از باباطاهر، پیر گران مایه الوند
+          بازتاب یافته است: «مو آن بحرم که در ظرف آمدستم/چو نقطه بر سر حرف آمدستم/بهر الفی الف قدی بر آیو/الف
+          قدم که در الف آمدستم». بی‌گمان مردمی اینچنین روشن اندیش، امیدوار و خوش بین هرگز نمی‌توانند به
+          افسردگی، به تلخ کامی، به واماندگی از تلاش و تکاپو  برای رسیدن به زندگی بهین و به آیین بازمانند.
+
+          </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Photos/Fox-tree.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>روزنامه‌نگار
+          هنگامی که صحنه سیاست در ایران را نظاره می‌کنیم، دچار تعجب فراوان می‌شویم.
+           آیا این همان جامعه‌ای است که انقلاب کرد؟ آیا این همان جامعه‌ای است که 8 سال جنگید؟ این ناپایداری سیاسی که از
+          خاتمی به احمدی‌نژاد برسد و سپس به روحانی بازگردد از کجا ریشه می‌گیرد؟ آیا این تعارضات درونی جامعه است که اینچنین
+          بازتاب پیدا می‌کند یا آنکه دستکاری‌های رسمی در امور جامعه است که موجب بروز این تعارضات می‌شود؟ به نظر می‌رسد که
+          سیاست‌گذاران جامعه ایران توجه چندانی به اثرات زیانبار این حد از ناآرامی و اغتشاش روحی و روانی ندارند.
+           متأسفانه صبر و بردباری جامعه را به گونه دیگری تفسیر و تحلیل می‌کنند و از همه بدتر اینکه نسل
+          جدیدی از میان ساختار نزدیک به قدرت پا به عرصه سیاست گذاشته است که در انجام رفتارهای بی‌پروا و تند،
+           هیچ محدودیتی برای خود قائل نیست و موقعیت و نزدیکی خود به ساختار قدرت را با جایگاه اپوزیسیونی
+           و براندازی قاطی کرده است و چهارنعل در مسیر ضد دولتی گام برمی‌دارد و هیچ خط قرمزی را نیز برای خود قائل نیست.
+          !
+          </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./Photos/Fox-tree.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>رئیس بنیاد شهید و امور ایثارگران
+          در اولین روزهای شکل‌گیری مردمی‌ترین و انقلابی‌ترین نظام
+          اسلامی در منطقه، امام خمینی‌(ره) بنیانگذار و رهبر انقلاب اسلامی روز 4 آذر 1358 سخنانی تاریخی را به
+           زبان آوردند که سنگ بنای سازمان بسیج شد. سخنان آن روز بنیانگذار انقلاب اسلامی به‌عنوان پدر معنوی
+           همه بسیجیان هنوز از خاطره‌ها نرفته است که فرمودند: «یک کشوری با 20 میلیون جوان که دارد (باید)
+          بیست میلیون تفنگدار داشته باشد. 20 میلیون ارتش داشته باشد و این یک همچه مملکتی آسیب‌بردار نیست.»
+          جوانان و نوجوانان آن روز بسیج، خاطرات حماسی مبارزه در رکاب امام راحل برای تثبیت انقلاب و بیرون راندن
+          دشمن بعثی را به یادگار گذاشته‌اند. امروز برای همه مرور آن لحظه‌ها و خاطرات، دل‌انگیز و راهگشا است.
+          مکتب بسیج و رمز موفقیت‌های این سازمان مردمی در تمام عرصه‌هایی که حضور داشته، ایثار، اخلاص
+          روح مردمی بودن حاکم بر این نهاد است. چنانکه رهبر معظم انقلاب فرمودند: «مکتب بسیج، مکتب مجاهدت معنوی و
+          مخلصانه است. این مجاهدت برای ملت و کشور و بالاتر از همه برای دین خدا و سرافرازی پرچم آزادگی اسلامی      .</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Photos/Fox-tree.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="./Photos/Fox-tree.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="./Photos/Fox-tree.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="./Photos/kamera.jpg" alt="Me" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="./Photos/kamera.jpg" alt="Me" style="width:100%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <hr>
+
+    <h4>Technical Skills</h4>
+    <!-- Progress bars / Skills -->
+    <p>Photography</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:95%">95%</div>
+    </div>
+    <p>Web Design</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Photoshop</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:80%">80%</div>
+    </div>
+    <p>
+
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+          <i class="fa fa-download w3-margin-right"></i>
+            <a href="http://www.Bleibistan.org" target="_blank" download> #Bleibistan
+
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+          <i class="fa fa-download w3-margin-right"></i>
+          <a href="http://wasgeht.berlin" target="_blank" download> Wasgeht?!Magazin
+
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i>
+          <a href="https://afghanmemories.org/" target="_blank" download>Afgan Memories Buch
+
+      <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+        <i class="fa fa-download w3-margin-right"></i>
+          <a href="https://www.cvjm-ostwerk.de/website/de/ostwerk/themen/junge-gefluechtete-begleiten/buch-haesslich-willkommen" target="_blank" download>Hässlich Willkommen Buch Projeckt
+
+
+      </a>
+      </button>
+    </p>
+    <hr>
+
+    <h4>How much I charge</h4>
+    <hr>
+
+ <!-- accordion -->
+ <button class="accordion">Section 1</button>
+ <div class="panel">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, blanditiis.
+    ipsum dolor sit amet consectetur adipisicing elit.
+    Dolores, ab natus et neque dicta nostrum illo iste ullam facere inventore!</p>
+ </div>
+
+ <button class="accordion">Section 2</button>
+ <div class="panel">
+   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Qui accusantium omnis, voluptas excepturi voluptatibus
+      non repellendus laboriosam tempora repellat veritatis
+      praesentium vero ratione exercitationem explicabo minima
+      minus ex voluptates veniam at consequuntur sit a obcaecati quam rem.
+      Distinctio, quam neque.</p>
+ </div>
+
+ <button class="accordion">Section 3</button>
+ <div class="panel">
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Ducimus et nihil autem cupiditate eos repellendus est,
+      unde sunt iusto sed temporibus quia maxime nobis quasi,
+      dolores aut optio dolor consectetur harum porro ad
+      accusantium consequuntur! Totam nihil nisi unde sed.</p>
+ </div>
+<br>
+<br>
+
+
+
+
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+    <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+    <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+    <li class="w3-padding-16">Web Design</li>
+    <li class="w3-padding-16">Photography</li>
+    <li class="w3-padding-16">1GB Storage</li>
+    <li class="w3-padding-16">Mail Support</li>
+    <li class="w3-padding-16">
+    <h2>$ 10</h2>
+    <span class="w3-opacity">per month</span>
+    </li>
+    <li class="w3-light-grey w3-padding-24">
+    <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+    </li>
+    </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+    <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+    <li class="w3-teal w3-xlarge w3-padding-32">Pro</li>
+    <li class="w3-padding-16">Web Design</li>
+    <li class="w3-padding-16">Photography</li>
+    <li class="w3-padding-16">50GB Storage</li>
+    <li class="w3-padding-16">Endless Support</li>
+    <li class="w3-padding-16">
+    <h2>$ 25</h2>
+    <span class="w3-opacity">per month</span>
+    </li>
+    <li class="w3-light-grey w3-padding-24">
+    <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+    </li>
+    </ul>
+    </div>
+
+    <div class="w3-third">
+    <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+    <li class="w3-padding-16">Web Design</li>
+    <li class="w3-padding-16">Photography</li>
+    <li class="w3-padding-16">Unlimited Storage</li>
+    <li class="w3-padding-16">Endless Support</li>
+    <li class="w3-padding-16">
+    <h2>$ 25</h2>
+    <span class="w3-opacity">per month</span>
+    </li>
+    <li class="w3-light-grey w3-padding-24">
+    <button class="w3-button w3-teal w3-padding-large w3-hover-black">Sign Up</button>
+    </li>
+    </ul>
+    </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <a href="http://www.gmail.com" target="_blank">
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+    <div class="w3-third w3-dark-grey">
+    <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+    <p>email@email.com</p>
+    </a>
+    </div>
+    <div class="w3-third w3-teal">
+    <a href="https://goo.gl/maps/EP5jjBakoHVJey1F6" target="_blank">
+    <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+    <p>Berlin, Buch</p>
+    </a>
+    </div>
+    <div class="w3-third w3-dark-grey"><a href="tel:+49123456789" target="_blank">
+    <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+    <p>Anruffen</p></a>
+    </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+    <div class="w3-section">
+    <label>Name</label>
+    <input class="w3-input w3-border" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+    <label>Email</label>
+    <input class="w3-input w3-border" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+    <label>Message</label>
+    <input class="w3-input w3-border" type="text" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+  <div class="w3-third">
+  <h3>FOOTER</h3>
+  <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+  <p>Powered by: <a href="https://www.xing.com/profile/Mohsen_Hassani/cv" target="_blank">Mohsen Hassani</a></p>
+    </div>
+
+    <div class="w3-third">
+    <h3 id="Blog Text"></h3>
+    <a href="http://wasgeht.Berlin" target="_blank">
+    <ul class="w3-ul w3-hoverable">
+    <li class="w3-padding-16">
+    <img src="./Photos/aussicht.jfif" class="w3-left w3-margin-right" style="width:50px">
+    <span class="w3-large">Lorem</span><br>
+    <span>Sed mattis nunc</span>
+    </li>
+      </a>
+
+
+    <a href="http://bleibistan.org" target="_blank">
+    <li class="w3-padding-16">
+    <img src="./Photos/aussicht.jfif" class="w3-left w3-margin-right" style="width:50px">
+    <span class="w3-large">Ipsum</span><br>
+    <span>Praes tinci sed</span>
+    </li>
+      </a>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+    <h3>POPULAR TAGS</h3>
+      <p>
+    <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Afghanistan</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Austria</span>
+      <span class="w3-tag w3-grey w3-small w3-margin-bottom">Photography</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Iran</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Greece</span>
+      <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Grmany</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Turkey</span>
+      <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">USA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-grey w3-small w3-margin-bottom">Theather</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Workshop</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+
+  <div class="w3-black w3-center w3-padding-24">Powered by: <a href="./impressum.html" target="_blank" title="W3.CSS " target="_blank" class="w3-hover-opacity">Mohsen Hassani</a></div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Top Bottom -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+
+<script>
+
+
+
+
+
+
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+
+
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+// accordion
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
